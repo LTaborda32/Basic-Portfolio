@@ -1,0 +1,27 @@
+.body {
+    background-image: url(C:\Users\ltabo\Basic-Portfolio\assets\images\vertical_cloth_@2X.png);
+    border-style: solid;
+    height: 200px;
+    width: fit-content;
+    float: right;
+}
+
+#pic_of_me{
+    width: 250px;
+    height: 250px;
+    margin-right: 100px;
+   float: left;
+
+    }
+
+#heading{
+    text-align: center;
+    margin-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-style: solid;
+    background-color: royalblue;
+    width: 300px;
+    height: 100px;
+    
+}
+

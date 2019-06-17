@@ -1,27 +1,55 @@
-.body {
-    background-image: url(C:\Users\ltabo\Basic-Portfolio\assets\images\vertical_cloth_@2X.png);
-    border-style: solid;
-    height: 200px;
+body {
+    background-image: url(../images/subtle_white_mini_waves.png);
     width: fit-content;
-    float: right;
+    margin: 0;
+    padding: 0;
+   
 }
 
 #pic_of_me{
     width: 250px;
     height: 250px;
-    margin-right: 100px;
-   float: left;
+    float: left;
+    padding: 20px;
 
     }
 
-#heading{
-    text-align: center;
-    margin-top: 30px;
+.name{
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
     border-style: solid;
-    background-color: royalblue;
-    width: 300px;
-    height: 100px;
-    
+    background-color: black;
+    color: white;
+    margin-top: 0;
+    margin-left: 60px;
+    padding: 20px;
+    width: 250px;
+   
 }
+
+#about_me {
+    background-image: url(../images/footer_lodyas.png);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 960px;
+    height: 450px;
+    margin: 80px;
+   
+   
+}
+
+.about,
+.portfolio,
+.contact{
+    float: right;
+    margin-top: 0;
+    margin-left: 20px;
+
+}
+
+
+
+
+
+
 

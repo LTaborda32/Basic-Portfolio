@@ -1,28 +1,30 @@
 body {
     background-image: url(../images/subtle_white_mini_waves.png);
-    width: fit-content;
-    margin: 0;
     padding: 0;
+
    
 }
 
 #pic_of_me{
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
     float: left;
+    
+
 
     }
 
 .name{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    border-style: solid;
-    background-color: black;
+    background-image: url(../images/footer_lodyas.png);
     color: white;
     margin-top: 0;
     margin-left: 60px;
     padding: 20px;
-    width: 250px;
+    width: 50%;
+    float: left;
    
 }
 
@@ -30,21 +32,95 @@ body {
     background-image: url(../images/footer_lodyas.png);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    width: 960px;
-    box-sizing: border-box;
+    width: 1024px;
     padding: 30px;
+    
    
    
+}
+
+
+.navigation{
+    float: right;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-right: 500px;
+
+
+
 }
 
 .about,
 .portfolio,
 .contact{
-    float: right;
+    padding-right: 20px;
+}
+
+footer{
+    text-align: center;
+    background-image: url(../images/footer_lodyas.png);
+    color: white;
+}
+
+#main-content{
+    background-image: url(../images/footer_lodyas.png);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1024px;
+    padding: 30px;
+}
+
+.message {
+    height: 100px;
+}
+
+#name {
+    background-image: url(../images/footer_lodyas.png);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
     margin-top: 0;
-    margin-left: 20px;
+    margin-left: 60px;
+    padding: 20px;
+    width: 50%;
+    float: left;
+    text-align: center;
+
 
 }
+
+#contact{
+    position: static;
+  
+}
+
+#Nav{
+    float: right;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-right: 500px;
+
+}
+
+#portfolio{
+    background-image: url(../images/footer_lodyas.png);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1024px;
+    padding: 30px;
+
+}
+.photo{
+    width: 300px;
+    height: 250px;
+    padding: 5px;
+
+}
+
+
+
+
 
 
 

@@ -2,29 +2,54 @@ body {
     background-image: url(../images/subtle_white_mini_waves.png);
     padding: 0;
 
+
    
 }
 
+nav {
+    height: 100px;
+    width: 100%;
+    background-image: url(../images/footer_lodyas.png);
+}
+
+
 #pic_of_me{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     padding: 10px;
     float: left;
     
 
 
     }
+ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 100px;
+    padding: 0 20px;
 
+}
+
+li{
+    float: right;
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+
+}
 .name{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    background-image: url(../images/footer_lodyas.png);
-    color: white;
+    background-color: black;
     margin-top: 0;
     margin-left: 60px;
-    padding: 20px;
-    width: 50%;
     float: left;
+    color: white;
+    padding: 6px;
+    margin-left: 430px;
    
 }
 
@@ -32,8 +57,11 @@ body {
     background-image: url(../images/footer_lodyas.png);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    width: 1024px;
-    padding: 30px;
+    width: 960px;
+    padding: 40px;
+    margin: auto;
+    line-height: 30px;
+    border: 3px solid;
     
    
    
@@ -61,6 +89,8 @@ footer{
     text-align: center;
     background-image: url(../images/footer_lodyas.png);
     color: white;
+    padding: 20px;
+    margin: auto;
 }
 
 #main-content{
@@ -69,6 +99,7 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
     width: 1024px;
     padding: 30px;
+    margin: auto;
 }
 
 .message {
@@ -109,15 +140,38 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
     width: 1024px;
     padding: 30px;
+    margin: auto;
+    
 
 }
 .photo{
     width: 300px;
     height: 250px;
-    padding: 5px;
+    padding: 10px;
+    position: relative;
 
 }
 
+.pic1,
+.pic2,
+.pic3,
+.pic4,
+.pic5,
+.pic6 {
+    position: fixed;
+    z-index: 2;
+
+}
+
+.nightlife{
+    background-image: url(../images/NightLife.jpg);
+}
+
+.Nightlife{
+    z-index: 3;
+    background-image: url(../images/footer_lodyas.png);
+    
+}
 
 
 

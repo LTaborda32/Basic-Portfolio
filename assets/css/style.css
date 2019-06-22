@@ -152,26 +152,26 @@ footer{
 
 }
 
-.pic1,
-.pic2,
-.pic3,
-.pic4,
-.pic5,
-.pic6 {
-    position: fixed;
+.img {
+    position: relative;
+}
+
+.text1,
+.text2,
+.text3,
+.text4,
+.text5,
+.text5,
+.text6 {
     z-index: 2;
-
+    position: absolute;
+    background-color: black;
+    margin-top: 400px;
+    padding: 20px;
+    width: 600px;
+    text-align: center;
 }
 
-.nightlife{
-    background-image: url(../images/NightLife.jpg);
-}
-
-.Nightlife{
-    z-index: 3;
-    background-image: url(../images/footer_lodyas.png);
-    
-}
 
 
 
